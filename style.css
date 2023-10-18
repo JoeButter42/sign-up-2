@@ -19,6 +19,10 @@ main{
     background: rgb(3, 0, 48);
     background: linear-gradient(180deg, rgba(3, 0, 48, 1) 0%, rgba(4, 0, 48, 1) 4%, rgba(226, 229, 245, 1) 100%);
 }
+
+/* ANIMATED GRADIENT BACKGROUND 
+This actually changes the hue of everything on the page.
+It's not noticable outside of the background unless you highlight text in the textbox (Which I actually really like)*/
 @keyframes hue-rotate {
     from{
         -webkit-filter: hue-rotate(0);
